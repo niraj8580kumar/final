@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module_Test_F1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;900&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+         
+            <div class="logo">
+                <h1>Companyname</h1>
+            </div>
+            <div class="items">
+                <div class="item">
+                    <a href="#home"> Home</a>
+                </div>
+                 <div class="item">
+                    <a href="#about-us"> About Us</a>
+                </div>
+                <div class="item">
+                    <a href="#our-services"> Our Services</a>
+                </div>
+                 <div class="item">
+                    <a href="#contact-us"> Contact Us</a>
+                </div>
+           </div>
+        </header>
+        <main class="main">
+         <section class="landing_page" id="home">
+            <div class="left">
+                <h1>BUSINESS LANDING PAGE</h1>
+            </div>
+            <div class="right">
+               <img src="/images/laptop.png" alt="hidden_couple">
+            </div>
+                <a href="#our-services"><i class="fa-thin fa-arrow-down-long"></i></a>
+         </section>
+         <section class="about_us" id="about-us">
+            <div class="left1">
+                <img src="/images/hidden_couple.jpg" alt="">
+            </div>
+            <div class="right">
+                <h2>ABOUT US</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+         </section>
+         <section class="our_servise" id="our-services">
+
+            <div class="main">
+                <div class="our-service-heading">
+                    <h2>OUR SERVICES</h2>
+                </div>
+                <div class="service">
+                    <div class="ser">
+                        <h3 class="h">Service 1</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                        </p>
+                    </div>
+                    <div class="ser">
+                        <h3 class="h">Service 2</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                        </p>
+                    </div>
+                    <div class="ser">
+                        <h3 class="h">Service 3</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+         </section>
+        </main>
+        <footer class="footer" id="contact-us">
+            <h2>CONTACT US</h2>
+            <div class="footer1">
+                <form action="#" method="post">
+                    <input type="text" placeholder="FULL NAME" required class="fname" style="color:white"><br><br>
+                    <input type="text"placeholder="LAST NAME" required class="lname" style="color:white"><br><br>
+                    <input type="email"placeholder="Email Address" required class="mail" style="color:white"><br><br>
+                    <input type="text"placeholder="reason for contacting" required class="rcont" style="color:white"><br><br>
+                   <button type="submit" class="submit"> Submit</button>
+            </div>
+
+            </form>
+            <div id="successAlert" style="display:none;">
+                <p>Your form has been submitted successfully!</p>
+              </div>
+
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

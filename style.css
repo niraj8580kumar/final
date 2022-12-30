@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .header{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 20px 35px; */
+    position: fixed;
+   top: 0;
+   right: 0;
+   left: 0;
+   height: 87px;
+   
+  }
+  
+  .header .logo h1{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 29px;
+  }
+  .header .items{
+    display: flex;
+    align-items: center;
+  }
+  
+  .items .item{
+    padding: 0px 20px;
+  }
+  
+  .items .item a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .main .landing_page{
+    display: flex;
+    align-items: center;
+  }
+  .landing_page{
+  
+    display: flex;
+    margin: 53px 0px;
+    background-color: #000;
+    width: 1728px;
+    height: 1030px;
+   
+  }
+  .landing_page .left{
+    width: 50%;
+    padding: 0px 38px;
+  }
+  
+  
+  .left h1{
+   font-weight: 700;
+    font-size: 184px;
+    line-height: 235.05px;
+    color: rgb(255, 255, 255);
+    width: 986px;
+    animation-name: ChangeColor;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes ChangeColor{
+    0%{
+        color: blue;
+    }
+    50%{
+        color: darkorange;
+    }
+    75%{
+        color: greenyellow;
+    }
+    100%{
+        color: red;
+    }
+  }
+  
+  .landing_page .right{
+    width: 50%;
+   
+  }
+  
+  .landing_page .right img{
+   height: 395px;
+   width: 734px;
+   margin-top: 288px;
+  }
+  .about-us .left img{
+    width: 572px;
+    height: 726px;
+  }
+  .main .about_us{
+    display: flex; 
+    align-items: flex-start;
+    
+  
+     
+   
+    
+  }
+  .about_us .left1 img{
+    height: 726px;
+    width: 572px;
+    margin-left: 89px;
+    margin-top: 180px;
+   
+  }
+  .about_us  .right h2{
+    height: 173px;
+     font-weight: 600;
+    font-size: 100px;
+    line-height: 235.05px;
+    margin-left: 89px;
+    margin-top: 100px; 
+  }
+  .about_us  .right p{
+      
+        font-size: 18px;
+       height: 546px;
+       width: 912px;   
+  }
+  .our-service-heading h2{
+    height: 173px;
+    font-weight: 600;
+   font-size: 100px;
+   line-height: 235.05px;
+   margin-left: 82px;
+   margin-top: 100px; 
+  } 
+  .main .service {
+    display: flex;
+    margin-top: 50px;
+   
+  
+  }
+  .service .ser{
+    border: 2px solid black;
+    width: 599px;
+    height: 423px;
+    margin-left: 82px;
+    transition: background-color 5s, color 0.3s;
+  
+  }
+  .service .ser:hover{
+        background-color:black;
+        color:#fff
+  }
+  
+  
+  .ser .h{
+    margin: 45px 302px 10px 44px;
+    font-size: 50px;
+   font-weight: 100;
+   line-height: 60px;
+  }
+  .ser p{
+    width: 510px;
+    height: 254px;
+    margin: 13px 45px 31px 44px;
+  }
+  .footer{
+    height: 1030px;
+    width: 1728px;
+  background-color: #000;
+  margin-top: 357px;
+  }
+  .footer h2{
+    color: #fff;
+    margin: 101px 517px 785px 518px;
+    height: 144px;
+    width: 692px;
+    font-size: 100px;
+    font-weight: 900;
+  
+  }
+  
+  .fname{
+  box-sizing: border-box;
+  position: absolute;
+  width: 1372px;
+  height: 72px;
+  left: 146px;
+  top: 3515px;
+  border: 1px solid #FFFFFF;
+  background-color: #000;
+  
+  }
+  .lname{
+    box-sizing: border-box;
+  
+  position: absolute;
+  width: 1372px;
+  height: 80px;
+  left: 146px;
+  top: 3622px;
+  background-color: #000;
+  border: 1px solid #FFFFFF;
+  }
+  .mail{
+    position: absolute;
+  width: 1372px;
+  height: 80px;
+  left: 146px;
+  top: 3728px;
+  background-color: #000;
+  border: 1px solid #FFFFFF;
+  }
+  .rcont{
+    position: absolute;
+  width: 1372px;
+  height: 80px;
+  left: 146px;
+  top: 3834px;
+  background-color: #000;
+  border: 1px solid #FFFFFF;
+  }
+  .submit{
+    position: absolute;
+  width: 260.75px;
+  height: 58px;
+  left: 146px;
+  top: 3941px;
+  font-size: 24px;
+  background: #FFFFFF;
+  }
+  
